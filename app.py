@@ -12,8 +12,9 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('TH8tpvEXoZZrXRKMRQru8Op4mwQNaN4Njl3IsuwszEZxdZRyiUSEc25qAqpi6RqppKrnfugYqwbmao1zaIx1DNUX1WVij/pFXQGkLukKUXrg69QcF4IhPI0n7klLl6udOGermqWEQc2H8Ux7V4PG6AdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('67e2f3bee2b361ccd91fa78874f21109')
+line_bot_api = LineBotApi('TkzYYGxv+KJC/GrkF5GONgzlSm/B4VfWLnGZVjmvhESAvznsIMWy49IzxcD/2juZp+qSOC0IMz33cs5A5phW+scqU18ObAq+NEUvO7ZqzVN0F9leYbuQsiHXWFOwaZ1nsEk5nHgduIJhqQteRmDUSQdB04t89/1O/w1cDnyilFU=
+')
+handler = WebhookHandler('018b94203b6c49c7481431c4741cb825')
 
 
 # 監聽所有來自 /callback 的 Post Request
